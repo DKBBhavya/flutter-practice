@@ -7,7 +7,7 @@ class WorldTime {
   late String time;
   String flag;
   String url;
-  late bool isDaytime;
+  bool? isDaytime;
 
   WorldTime({required this.location, required this.flag, required this.url});
 
